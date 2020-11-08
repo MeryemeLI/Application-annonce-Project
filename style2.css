@@ -1,0 +1,67 @@
+p{
+	color: black ;
+}
+
+body {
+    background-color: PapayaWhip;
+}
+.zoom img {
+	width:120px;
+	height:120px;
+	float:left;
+	overflow: hidden;
+
+}
+.zoom2 img {
+	width:500px;
+	height:500px;
+	float:right;
+	
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 36px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #333;
+    /*#4CAF50*/
+}
+li {
+    border-right: 4px solid #000000;
+    border-top: 4px solid #000000;
+    border-bottom: 4px solid #000000;
+    
+}
+li:first-child {
+    border-left: 4px solid #000000;
+}
+li:last-child {
+    border-right: 4px solid #000000;
+    border-left: 4px solid #000000;
+}
+footer {
+    display: block;
+}
